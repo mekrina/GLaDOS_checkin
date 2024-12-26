@@ -18,4 +18,5 @@
 #     print(response.text)
 #     print("cookie失效")
 
-print("hello world")
+import os
+print(os.environ.get("GLADOS_COOKIE", "oh no"))
