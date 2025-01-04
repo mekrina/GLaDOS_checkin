@@ -2,6 +2,7 @@ import requests
 import json
 import os
 
+raise Exception("just a try")
 url = "https://glados.rocks/api/user/checkin"
 data = {"token":"glados.one"}
 cookie = os.environ.get("GLADOS_COOKIE", "")
